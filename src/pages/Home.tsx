@@ -19,6 +19,7 @@ const Home = () => {
             <p className="text-2xl md:text-3xl text-muted-foreground font-light">
               Fotografia Profissional & Automações Inteligentes com n8n
             </p>
+
             {/* Imagem com moldura profissional */}
 <div className="relative mt-12 w-full flex justify-center">
   {/* Moldura com luz animada */}
@@ -30,9 +31,9 @@ const Home = () => {
     {/* Fundo da moldura */}
     <div className="relative bg-white rounded-2xl overflow-hidden">
       <img
-        src="URL_DA_SUA_IMAGEM"
+        src="https://i.imgur.com/slCXLMD.jpeg"
         alt="Foto de apresentação"
-        className="w-[700px] max-w-full rounded-2xl object-cover"
+        className="w-[200px] max-w-full rounded-2xl object-cover"
       />
     </div>
   </div>
