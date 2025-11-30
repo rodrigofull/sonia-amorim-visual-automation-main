@@ -57,7 +57,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/48988377567"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors p-2 hover:scale-110 transform duration-300"
@@ -66,7 +66,7 @@ const Footer = () => {
                 <MessageCircle size={24} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/c/FATOSFANT%C3%81STICOS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors p-2 hover:scale-110 transform duration-300"

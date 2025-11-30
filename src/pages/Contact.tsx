@@ -229,7 +229,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Localização</h3>
-                    <p className="text-muted-foreground">São Paulo, SP - Brasil</p>
+                    <p className="text-muted-foreground">florianopolis, sc - Brasil</p>
                   </div>
                 </div>
               </CardContent>

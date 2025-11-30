@@ -19,6 +19,24 @@ const Home = () => {
             <p className="text-2xl md:text-3xl text-muted-foreground font-light">
               Fotografia Profissional & Automações Inteligentes com n8n
             </p>
+            {/* Imagem com moldura profissional */}
+<div className="relative mt-12 w-full flex justify-center">
+  {/* Moldura com luz animada */}
+  <div className="relative p-[4px] rounded-2xl overflow-hidden shadow-xl">
+
+    {/* Glow animado */}
+    <div className="absolute inset-0 bg-gradient-to-r from-pink-500 via-fuchsia-400 to-pink-500 animate-glow rounded-2xl opacity-70 blur"></div>
+
+    {/* Fundo da moldura */}
+    <div className="relative bg-white rounded-2xl overflow-hidden">
+      <img
+        src="URL_DA_SUA_IMAGEM"
+        alt="Foto de apresentação"
+        className="w-[700px] max-w-full rounded-2xl object-cover"
+      />
+    </div>
+  </div>
+</div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
               <Link to="/fotografia">
