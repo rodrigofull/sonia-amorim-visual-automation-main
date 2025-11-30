@@ -130,7 +130,7 @@ const Contact = () => {
                   <Input
                     id="phone"
                     {...register("phone")}
-                    placeholder="(11) 99999-9999"
+                    placeholder="(99) 9999999"
                     className="mt-1"
                   />
                   {errors.phone && (
@@ -201,7 +201,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">contato@soniaamorim.com</p>
+                    <p className="text-muted-foreground">sonia.rim@hotmail.com</p>
                   </div>
                 </div>
               </CardContent>
@@ -215,7 +215,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Telefone</h3>
-                    <p className="text-muted-foreground">(11) 99999-9999</p>
+                    <p className="text-muted-foreground">(48) 988377567</p>
                   </div>
                 </div>
               </CardContent>
